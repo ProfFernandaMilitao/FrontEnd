@@ -10,11 +10,14 @@
         window.alert("Olá, vamos calcular sua média?")
         var nome = window.prompt("Qual seu nome?")
         var nota1 = parseFloat(prompt("Qual sua nota?"))
+        //para gardar os valores do usuário temos as variaveis, que 
         var nota2 = parseFloat(prompt("Qual sua nota?"))
         var media = (nota1 + nota2)/2
 
-       document.write("Olá " + nome + " sua media é " + media)
-       document.write("Olá ${nome}")
+       document.write("Olá " + nome + " sua media é " + media + "<p>")
+    
+       
+       document.write(`Olá ${nome} a media das notas ${nota1} e ${nota2} é ${media}` )
         
     </script>    
 </body>
