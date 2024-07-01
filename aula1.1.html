@@ -14,10 +14,17 @@
         var nota2 = parseFloat(prompt("Qual sua nota?"))
         var media = (nota1 + nota2)/2
 
-       document.write("Olá " + nome + " sua media é " + media + "<p>")
-    
+       document.write("Olá " + nome + " sua media é " + media + "<p>")    
        
        document.write(`Olá ${nome} a media das notas ${nota1} e ${nota2} é ${media}` )
+
+       //condições no JavaScript
+       if(media >= 6){
+        alert("Parabens você foi aprovado")
+       }
+       else{
+        alert("Infelizmente você está reprovado. Estude mais")
+       }
         
     </script>    
 </body>
